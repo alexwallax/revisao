@@ -14,8 +14,8 @@ while ($n < 20) {
   
  */
 
-require_once funcoes;
+require_once "./funcoes.php";
 
-$escolha = $_POST["escolha"]; 
 
-validar($escolha, testeConhecimento.php);
+
+validar($_POST["escolha"], "testeConhecimento.php");
